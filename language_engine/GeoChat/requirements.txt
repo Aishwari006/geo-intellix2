@@ -1,24 +1,48 @@
-# Directly from GeoChat's pyproject.toml
-einops==0.6.1
-einops-exts==0.0.4
-timm==0.6.13
-fastapi
-gradio==3.35.2
-markdown2[all]
-numpy
-requests
-sentencepiece==0.1.99
-tokenizers>=0.12.1
+# ==========================================
+# CORE AI FRAMEWORK (Pinned for CUDA 11.8)
+# ==========================================
 torch==2.0.1
 torchvision==0.15.2
-uvicorn
-wandb
-shortuuid
-httpx==0.24.0
 deepspeed==0.9.5
+accelerate==0.21.0
 peft==0.4.0
 transformers==4.31.0
-accelerate==0.21.0
 bitsandbytes==0.41.0
+
+# ==========================================
+# CRITICAL FIX: PIN NUMPY TO 1.x
+# ==========================================
+numpy<2.0
+
+# ==========================================
+# VISION & OPENCV
+# ==========================================
+# Use headless to avoid "libGL" errors
+opencv-python-headless<4.10
 scikit-learn==1.2.2
+scipy
+joblib
+threadpoolctl
+timm==0.6.13
+einops==0.6.1
+einops-exts==0.0.4
+
+# ==========================================
+# WEB & UTILS
+# ==========================================
+fastapi
+uvicorn
+gradio==3.35.2
 gradio_client==0.2.9
+starlette<0.50.0
+linkify-it-py
+mdit-py-plugins<=0.3.3
+annotated-doc
+httpx==0.24.0
+requests
+markdown2[all]
+wandb
+sentencepiece==0.1.99
+tokenizers>=0.12.1
+shortuuid
+huggingface_hub
