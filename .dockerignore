@@ -1,0 +1,28 @@
+# 1. IGNORE THE MASSIVE WEIGHTS (Crucial!)
+geochat-7B/
+*.bin
+*.pth
+*.pt
+
+# 2. Ignore Virtual Environments
+venv/
+.venv/
+env/
+
+# 3. Ignore Git History
+.git/
+.gitignore
+
+# 4. Ignore Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# 5. Ignore Local Output/Temp
+outputs/
+temp_storage/
+samples/
+
+# 6. Ignore IDE Settings
+.vscode/
+.idea/
