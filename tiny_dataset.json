@@ -1,0 +1,30 @@
+[
+  {
+    "id": "001",
+    "image": "demo_images/7292.JPG",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the condition of the buildings in this image."
+      },
+      {
+        "from": "gpt",
+        "value": "The image shows flooded residential buildings surrounded by water, indicating a flood event."
+      }
+    ]
+  },
+  {
+    "id": "002",
+    "image": "demo_images/church_183.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat type of building is this?"
+      },
+      {
+        "from": "gpt",
+        "value": "This appears to be a large building, potentially a church or public structure, surrounded by vegetation."
+      }
+    ]
+  }
+]

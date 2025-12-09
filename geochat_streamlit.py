@@ -288,7 +288,7 @@ def load_geochat_model():
 # ==========================================
 # 5. Streamlit App Logic
 # ==========================================
-st.set_page_config(page_title="GeoChat + GPT-OSS", layout="wide")
+st.set_page_config(page_title="GeoIntellix", layout="wide")
 st.title("🛰️ Geo-Intellix: Multi-Engine Analysis")
 
 with st.sidebar:
