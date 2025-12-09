@@ -1,0 +1,119 @@
+{
+    "caption": "The image, sourced from GoogleEarth, presents an aerial view of an urban setting with visible infrastructures such as bridges and a ground track field. One bridge, noted for its significant length, stretches horizontally across a wide river. Another, smaller bridge is seen closer to the top edge of the image. On the right side of the image, there is a clear view of a ground track field.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The bridge located at the bottom-left part of the image stretches across a river.",
+            "obj_cls": "bridge",
+            "obj_corner": [
+                0.10546875,
+                0.662109375,
+                0.53515625,
+                0.662109375,
+                0.53515625,
+                0.77734375,
+                0.10546875,
+                0.77734375
+            ],
+            "obj_coord": [
+                0.11,
+                0.66,
+                0.54,
+                0.78
+            ],
+            "is_unique": false,
+            "obj_position": "",
+            "obj_rel_position": "bottom-most",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        },
+        {
+            "obj_id": 1,
+            "referring_sentence": "The ground track field towards the right side of the image.",
+            "obj_cls": "ground-track-field",
+            "obj_corner": [
+                0.890625,
+                0.240234375,
+                0.974609375,
+                0.240234375,
+                0.974609375,
+                0.34765625,
+                0.890625,
+                0.34765625
+            ],
+            "obj_coord": [
+                0.89,
+                0.24,
+                0.97,
+                0.35
+            ],
+            "is_unique": true,
+            "obj_position": "right",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        },
+        {
+            "obj_id": 2,
+            "referring_sentence": "The top-most bridge in the image is located towards the top edge.",
+            "obj_cls": "bridge",
+            "obj_corner": [
+                0.62890625,
+                0.189453125,
+                0.671875,
+                0.189453125,
+                0.671875,
+                0.21875,
+                0.62890625,
+                0.21875
+            ],
+            "obj_coord": [
+                0.63,
+                0.19,
+                0.67,
+                0.22
+            ],
+            "is_unique": false,
+            "obj_position": "top",
+            "obj_rel_position": "top-most",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "What is the main river-crossing structure seen in the image?",
+            "type": "object category",
+            "answer": "bridge"
+        },
+        {
+            "ques_id": 2,
+            "question": "How many bridges are visible in the image?",
+            "type": "object quantity",
+            "answer": "2"
+        },
+        {
+            "ques_id": 3,
+            "question": "Is there a ground track field in the image?",
+            "type": "object existence",
+            "answer": "Yes"
+        },
+        {
+            "ques_id": 4,
+            "question": "Where is the ground track field located in the image?",
+            "type": "object position",
+            "answer": "Right side"
+        },
+        {
+            "ques_id": 5,
+            "question": "What urban structures are adjacent to the top-most bridge?",
+            "type": "object category",
+            "answer": "Buildings"
+        }
+    ],
+    "image": "05879_0000.png"
+}

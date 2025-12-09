@@ -1,0 +1,65 @@
+{
+    "caption": "The satellite image sourced from GoogleEarth depicts a section of land bisected by a highway. The highlight of the scene is an overpass located towards the bottom of the image crossing over the highway. The surrounding area is a mixture of greenery with some trees and grass.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The object crossing over the highway towards the bottom part of the image is the overpass.",
+            "obj_cls": "overpass",
+            "obj_corner": [
+                0.154296875,
+                0.82421875,
+                0.671875,
+                0.82421875,
+                0.671875,
+                0.9375,
+                0.154296875,
+                0.9375
+            ],
+            "obj_coord": [
+                0.15,
+                0.82,
+                0.67,
+                0.94
+            ],
+            "is_unique": true,
+            "obj_position": "bottom",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "What is the main structure crossing the highway?",
+            "type": "object category",
+            "answer": "overpass"
+        },
+        {
+            "ques_id": 2,
+            "question": "Which part of the image is the overpass located?",
+            "type": "object position",
+            "answer": "bottom"
+        },
+        {
+            "ques_id": 3,
+            "question": "Does the image contain any bodies of water?",
+            "type": "object existence",
+            "answer": "No"
+        },
+        {
+            "ques_id": 4,
+            "question": "Is the image in color or grayscale?",
+            "type": "image",
+            "answer": "color"
+        },
+        {
+            "ques_id": 5,
+            "question": "What color is predominant in the non-paved areas of the image?",
+            "type": "object color",
+            "answer": "green"
+        }
+    ],
+    "image": "05866_0000.png"
+}

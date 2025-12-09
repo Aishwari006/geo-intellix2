@@ -1,0 +1,53 @@
+{
+    "caption": "The image, provided by GoogleEarth, displays a section of an urban area with a train station located at the bottom of the frame. The surroundings comprise various buildings of different sizes and shapes, as well as a complex web of roads intersecting around the train station.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The train station is distinguished by an elongated structure at the bottom of the image.",
+            "obj_cls": "trainstation",
+            "obj_corner": [
+                0.623046875,
+                0.71484375,
+                1.029296875,
+                0.71484375,
+                1.029296875,
+                0.88671875,
+                0.623046875,
+                0.88671875
+            ],
+            "obj_coord": [
+                0.62,
+                0.71,
+                1.03,
+                0.89
+            ],
+            "is_unique": true,
+            "obj_position": "bottom",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "What type of area is featured in the image?",
+            "type": "scene type",
+            "answer": "urban"
+        },
+        {
+            "ques_id": 2,
+            "question": "What object is situated at the bottom of the image?",
+            "type": "object category",
+            "answer": "train station"
+        },
+        {
+            "ques_id": 3,
+            "question": "Is the train station size large or small relative to the image?",
+            "type": "object size",
+            "answer": "small"
+        }
+    ],
+    "image": "05871_0000.png"
+}

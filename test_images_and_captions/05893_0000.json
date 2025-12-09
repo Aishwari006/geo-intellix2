@@ -1,0 +1,47 @@
+{
+    "caption": "The image, sourced from GoogleEarth, showcases a diverse area including buildings, vegetation, and a distinct ground track field. In the middle-left part of the image, a small ground track field is visible.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The small ground track field is found towards the middle-left part of the image.",
+            "obj_cls": "ground-track-field",
+            "obj_corner": [
+                0.125,
+                0.341796875,
+                0.169921875,
+                0.341796875,
+                0.169921875,
+                0.423828125,
+                0.125,
+                0.423828125
+            ],
+            "obj_coord": [
+                0.12,
+                0.34,
+                0.17,
+                0.42
+            ],
+            "is_unique": true,
+            "obj_position": "middle-left",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 2,
+            "question": "How many ground track fields are there?",
+            "answer": "1",
+            "type": "object quantity"
+        },
+        {
+            "ques_id": 3,
+            "question": "Where is the ground track field located?",
+            "answer": "middle-left",
+            "type": "object position"
+        }
+    ],
+    "image": "05893_0000.png"
+}

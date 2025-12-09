@@ -1,0 +1,59 @@
+{
+    "caption": "An overhead image from GoogleEarth captures a view of an overpass with visible lanes. The overpass is positioned toward the bottom of the image.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The overpass located at the bottom of the image spans horizontally across the view.",
+            "obj_cls": "overpass",
+            "obj_corner": [
+                0.388671875,
+                0.705078125,
+                1.34765625,
+                0.705078125,
+                1.34765625,
+                0.947265625,
+                0.388671875,
+                0.947265625
+            ],
+            "obj_coord": [
+                0.39,
+                0.71,
+                1.35,
+                0.95
+            ],
+            "is_unique": true,
+            "obj_position": "bottom",
+            "obj_rel_position": "",
+            "obj_size": "",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "What type of structure is visible in the image?",
+            "answer": "overpass",
+            "type": "object category"
+        },
+        {
+            "ques_id": 2,
+            "question": "What is the position of the overpass in the image?",
+            "answer": "bottom",
+            "type": "object position"
+        },
+        {
+            "ques_id": 3,
+            "question": "Does the image include any roads?",
+            "answer": "Yes",
+            "type": "object existence"
+        },
+        {
+            "ques_id": 4,
+            "question": "Is the overpass running east-west or north-south?",
+            "answer": "east-west",
+            "type": "object direction"
+        }
+    ],
+    "image": "05867_0000.png"
+}

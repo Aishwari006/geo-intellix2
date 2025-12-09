@@ -1,0 +1,119 @@
+{
+    "caption": "The image, sourced from GoogleEarth, captures a pair of outdoor basketball courts adjacent to each other with a red vehicle located in the upper left area. While the basketball courts are empty, detailed markings for the games are visible. One court is positioned towards the right with slightly larger dimensions, while the other is towards the left. Trees and a pathway near the vehicle add context to the surrounding area.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The basketball court located on the right-hand side of the image.",
+            "obj_cls": "basketball-court",
+            "obj_corner": [
+                0.65234375,
+                0.443359375,
+                1.0,
+                0.443359375,
+                1.0,
+                1.1015625,
+                0.65234375,
+                1.1015625
+            ],
+            "obj_coord": [
+                0.65,
+                0.44,
+                1.0,
+                1.1
+            ],
+            "is_unique": false,
+            "obj_position": "",
+            "obj_rel_position": "right-most",
+            "obj_size": "small",
+            "obj_rel_size": "larger",
+            "flag": false
+        },
+        {
+            "obj_id": 1,
+            "referring_sentence": "The basketball court positioned on the left-hand side.",
+            "obj_cls": "basketball-court",
+            "obj_corner": [
+                0.24609375,
+                0.443359375,
+                0.599609375,
+                0.443359375,
+                0.599609375,
+                1.103515625,
+                0.24609375,
+                1.103515625
+            ],
+            "obj_coord": [
+                0.25,
+                0.44,
+                0.6,
+                1.1
+            ],
+            "is_unique": false,
+            "obj_position": "",
+            "obj_rel_position": "left-most",
+            "obj_size": "small",
+            "obj_rel_size": "smaller",
+            "flag": false
+        },
+        {
+            "obj_id": 2,
+            "referring_sentence": "The unique red vehicle is situated in the top-left corner of the image.",
+            "obj_cls": "vehicle",
+            "obj_corner": [
+                0.013671875,
+                0.22265625,
+                0.09765625,
+                0.22265625,
+                0.09765625,
+                0.306640625,
+                0.013671875,
+                0.306640625
+            ],
+            "obj_coord": [
+                0.01,
+                0.22,
+                0.1,
+                0.31
+            ],
+            "is_unique": true,
+            "obj_position": "top-left",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "How many basketball courts are shown in the image?",
+            "type": "object quantity",
+            "answer": "2"
+        },
+        {
+            "ques_id": 2,
+            "question": "What is the color of the vehicle?",
+            "type": "object color",
+            "answer": "Red"
+        },
+        {
+            "ques_id": 3,
+            "question": "Is there a larger basketball court in the image?",
+            "type": "object existence",
+            "answer": "Yes"
+        },
+        {
+            "ques_id": 4,
+            "question": "Are there any trees visible in the image?",
+            "type": "object existence",
+            "answer": "Yes"
+        },
+        {
+            "ques_id": 5,
+            "question": "Where is the vehicle located relative to the basketball courts?",
+            "type": "object position",
+            "answer": "Top-left"
+        }
+    ],
+    "image": "05865_0000.png"
+}

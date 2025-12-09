@@ -1,0 +1,53 @@
+{
+    "caption": "The image is from Google Earth, presenting a partial view of an outdoor environment with a basketball court visible. The court has clear lane markings and a hoop. The area surrounding the court is a green space indicating it is within a recreational area.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The basketball court is positioned towards the bottom-right in the image.",
+            "obj_cls": "basketball-court",
+            "obj_corner": [
+                0.568359375,
+                0.6484375,
+                0.955078125,
+                0.6484375,
+                0.955078125,
+                1.291015625,
+                0.568359375,
+                1.291015625
+            ],
+            "obj_coord": [
+                0.57,
+                0.65,
+                0.96,
+                1.29
+            ],
+            "is_unique": true,
+            "obj_position": "",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "What kind of sports facility is visible in the image?",
+            "type": "object category",
+            "answer": "basketball court"
+        },
+        {
+            "ques_id": 2,
+            "question": "Is the basketball court enclosed?",
+            "type": "object existence",
+            "answer": "No"
+        },
+        {
+            "ques_id": 3,
+            "question": "Is the green area surrounding the basketball court indicative of a park setting?",
+            "type": "reasoning",
+            "answer": "Yes"
+        }
+    ],
+    "image": "05884_0000.png"
+}

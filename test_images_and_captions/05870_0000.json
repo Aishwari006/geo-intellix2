@@ -1,0 +1,80 @@
+{
+    "caption": "Aerial view of a residential area from Google Earth showing a portion of a street with vehicles lined up. The capture shows four parked on the side of the street adjacent to houses. The houses have various roof colors and lawn areas.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The vehicle parked closest to the top edge of the image.",
+            "obj_cls": "vehicle",
+            "obj_corner": [
+                0.29296875,
+                0.16015625,
+                0.3359375,
+                0.16015625,
+                0.3359375,
+                0.26953125,
+                0.29296875,
+                0.26953125
+            ],
+            "obj_coord": [
+                0.29,
+                0.16,
+                0.34,
+                0.27
+            ],
+            "is_unique": false,
+            "obj_position": "top",
+            "obj_rel_position": "top-most",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        },
+        {
+            "obj_id": 3,
+            "referring_sentence": "The largest vehicle, positioned near the bottom edge of the image.",
+            "obj_cls": "vehicle",
+            "obj_corner": [
+                0.322265625,
+                0.904296875,
+                0.36328125,
+                0.904296875,
+                0.36328125,
+                1.0078125,
+                0.322265625,
+                1.0078125
+            ],
+            "obj_coord": [
+                0.32,
+                0.9,
+                0.36,
+                1.01
+            ],
+            "is_unique": false,
+            "obj_position": "bottom",
+            "obj_rel_position": "bottom-most",
+            "obj_size": "small",
+            "obj_rel_size": "largeest",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "How many vehicles are visible in the image?",
+            "type": "object quantity",
+            "answer": "Four"
+        },
+        {
+            "ques_id": 2,
+            "question": "What is the main color of the house roofs?",
+            "type": "object color",
+            "answer": "Gray and brown"
+        },
+        {
+            "ques_id": 3,
+            "question": "Are there any lawns visible in the residences?",
+            "type": "object existence",
+            "answer": "Yes"
+        }
+    ],
+    "image": "05870_0000.png"
+}

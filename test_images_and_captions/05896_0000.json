@@ -1,0 +1,65 @@
+{
+    "caption": "The image from GoogleEarth shows a part of an airport with two airplanes parked near boarding bridges and a unique vehicle situated in the top-middle area. The first airplane is at the left, while the second airplane is at the right. Surrounding the airplanes, various airport ground support equipment is observed.",
+    "objects": [
+        {
+            "obj_id": 2,
+            "referring_sentence": "The vehicle positioned in the top-middle area of the tarmac.",
+            "obj_cls": "vehicle",
+            "obj_corner": [
+                0.333984375,
+                0.27734375,
+                0.4453125,
+                0.27734375,
+                0.4453125,
+                0.328125,
+                0.333984375,
+                0.328125
+            ],
+            "obj_coord": [
+                0.33,
+                0.28,
+                0.45,
+                0.33
+            ],
+            "is_unique": true,
+            "obj_position": "top-middle",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "What type of image is this?",
+            "type": "image",
+            "answer": "satellite"
+        },
+        {
+            "ques_id": 2,
+            "question": "How many airplanes are visible?",
+            "type": "object quantity",
+            "answer": "2"
+        },
+        {
+            "ques_id": 3,
+            "question": "Is there ground support equipment present?",
+            "type": "object existence",
+            "answer": "Yes"
+        },
+        {
+            "ques_id": 4,
+            "question": "What is the relative position of the uniquely identified vehicle?",
+            "type": "object position",
+            "answer": "top-middle"
+        },
+        {
+            "ques_id": 5,
+            "question": "Are the airplanes parked near boarding bridges?",
+            "type": "object position",
+            "answer": "Yes"
+        }
+    ],
+    "image": "05896_0000.png"
+}

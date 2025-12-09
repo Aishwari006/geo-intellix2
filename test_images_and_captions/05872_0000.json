@@ -1,0 +1,113 @@
+{
+    "caption": "The image, sourced from GoogleEarth, shows a portion of a landscape with notable features including an expressway toll station situated at the bottom part of the frame. The toll station is characterized by its distinct structure at the bottom edge of the image, which is accompanied by two vehicles in its vicinity. The first vehicle is positioned middle-right within the frame. The second vehicle is located bottom-right. Vegetation and infrastructure elements are also visible around the toll station and vehicles.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The expressway toll station is located at the bottom edge of the image.",
+            "obj_cls": "expressway-toll-station",
+            "obj_corner": [
+                0.501953125,
+                0.80078125,
+                0.8203125,
+                0.80078125,
+                0.8203125,
+                1.072265625,
+                0.501953125,
+                1.072265625
+            ],
+            "obj_coord": [
+                0.5,
+                0.8,
+                0.82,
+                1.07
+            ],
+            "is_unique": true,
+            "obj_position": "bottom",
+            "obj_rel_position": "",
+            "obj_size": "",
+            "obj_rel_size": "",
+            "flag": false
+        },
+        {
+            "obj_id": 1,
+            "referring_sentence": "The vehicle is detectable as a larger entity in the middle-right of the frame.",
+            "obj_cls": "vehicle",
+            "obj_corner": [
+                0.791015625,
+                0.552734375,
+                0.83203125,
+                0.552734375,
+                0.83203125,
+                0.58984375,
+                0.791015625,
+                0.58984375
+            ],
+            "obj_coord": [
+                0.79,
+                0.55,
+                0.83,
+                0.59
+            ],
+            "is_unique": false,
+            "obj_position": "middle-right",
+            "obj_rel_position": "top-most",
+            "obj_size": "",
+            "obj_rel_size": "larger",
+            "flag": false
+        },
+        {
+            "obj_id": 2,
+            "referring_sentence": "The vehicle is present at the bottom-right position.",
+            "obj_cls": "vehicle",
+            "obj_corner": [
+                0.716796875,
+                0.7734375,
+                0.74609375,
+                0.7734375,
+                0.74609375,
+                0.806640625,
+                0.716796875,
+                0.806640625
+            ],
+            "obj_coord": [
+                0.72,
+                0.77,
+                0.75,
+                0.81
+            ],
+            "is_unique": false,
+            "obj_position": "bottom-right",
+            "obj_rel_position": "bottom-most",
+            "obj_size": "",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 2,
+            "question": "How many vehicles are visible near the toll station?",
+            "type": "object quantity",
+            "answer": "2"
+        },
+        {
+            "ques_id": 3,
+            "question": "Where is the toll station located within the image?",
+            "type": "object position",
+            "answer": "bottom"
+        },
+        {
+            "ques_id": 4,
+            "question": "Is there vegetation visible in the image?",
+            "type": "object existence",
+            "answer": "Yes"
+        },
+        {
+            "ques_id": 6,
+            "question": "Is the larger vehicle positioned at the top or bottom relative to the other vehicle?",
+            "type": "object position",
+            "answer": "Top"
+        }
+    ],
+    "image": "05872_0000.png"
+}

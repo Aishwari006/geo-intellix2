@@ -1,0 +1,65 @@
+{
+    "caption": "The satellite image provided by GoogleEarth features a windmill situated in an open landscape. The windmill is a small, distinguishing structure amidst the land with no other discernible buildings or features in close proximity.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The windmill is the small, distinct structure positioned in the center.",
+            "obj_cls": "windmill",
+            "obj_corner": [
+                0.291015625,
+                0.44921875,
+                0.333984375,
+                0.44921875,
+                0.333984375,
+                0.58203125,
+                0.291015625,
+                0.58203125
+            ],
+            "obj_coord": [
+                0.29,
+                0.45,
+                0.33,
+                0.58
+            ],
+            "is_unique": true,
+            "obj_position": "",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "What is the main object visible in the image?",
+            "type": "object category",
+            "answer": "windmill"
+        },
+        {
+            "ques_id": 2,
+            "question": "Was the image provided by satellite imaging?",
+            "type": "image",
+            "answer": "Yes"
+        },
+        {
+            "ques_id": 3,
+            "question": "Does the image feature any buildings or trees?",
+            "type": "object existence",
+            "answer": "No"
+        },
+        {
+            "ques_id": 4,
+            "question": "Is there only one windmill present in the image?",
+            "type": "object existence",
+            "answer": "Yes"
+        },
+        {
+            "ques_id": 5,
+            "question": "Is the windmill surrounded by other structures?",
+            "type": "object existence",
+            "answer": "No"
+        }
+    ],
+    "image": "05868_0000.png"
+}

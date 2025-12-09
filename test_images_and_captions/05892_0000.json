@@ -1,0 +1,53 @@
+{
+    "caption": "The image sourced from GoogleEarth showcases an aerial view of a large basketball court located in a green open area. The court has clear boundary markings and has two basketball hoops positioned at opposite ends. The surrounding area is predominantly green, with patches of bare earth and some trees along the edge. The basketball court is the main feature in this scene.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The basketball court, which has clear boundary markings and two hoops, occupies a large area in the scene.",
+            "obj_cls": "basketball-court",
+            "obj_corner": [
+                0.658203125,
+                0.41796875,
+                1.068359375,
+                0.41796875,
+                1.068359375,
+                0.986328125,
+                0.658203125,
+                0.986328125
+            ],
+            "obj_coord": [
+                0.66,
+                0.42,
+                1.07,
+                0.99
+            ],
+            "is_unique": true,
+            "obj_position": "",
+            "obj_rel_position": "",
+            "obj_size": "large",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "What is the main feature in the image?",
+            "answer": "Basketball court",
+            "type": "object category"
+        },
+        {
+            "ques_id": 2,
+            "question": "What color dominates the area surrounding the basketball court?",
+            "answer": "Green",
+            "type": "object color"
+        },
+        {
+            "ques_id": 3,
+            "question": "Is there any vegetation around the basketball court?",
+            "answer": "Yes",
+            "type": "object existence"
+        }
+    ],
+    "image": "05892_0000.png"
+}

@@ -1,0 +1,59 @@
+{
+    "caption": "The image, sourced from Google Earth, shows an area of a park featuring green spaces with trees and a baseball field. The baseball field is covered in sand and is accompanied by surrounding grassy fields.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The baseball field is located in the bottom right quadrant of the image.",
+            "obj_cls": "baseball-diamond",
+            "obj_corner": [
+                0.65234375,
+                0.603515625,
+                1.00390625,
+                0.603515625,
+                1.00390625,
+                0.900390625,
+                0.65234375,
+                0.900390625
+            ],
+            "obj_coord": [
+                0.65,
+                0.6,
+                1.0,
+                0.9
+            ],
+            "is_unique": true,
+            "obj_position": "",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "What is the main recreational facility visible in the image?",
+            "type": "object category",
+            "answer": "baseball field"
+        },
+        {
+            "ques_id": 2,
+            "question": "What type of spaces surround the baseball field?",
+            "type": "object category",
+            "answer": "grassy fields"
+        },
+        {
+            "ques_id": 3,
+            "question": "Does the image show any buildings or houses?",
+            "type": "object existence",
+            "answer": "No"
+        },
+        {
+            "ques_id": 4,
+            "question": "Is there any body of water visible in the image?",
+            "type": "object existence",
+            "answer": "No"
+        }
+    ],
+    "image": "05897_0000.png"
+}

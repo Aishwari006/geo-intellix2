@@ -1,0 +1,80 @@
+{
+    "caption": "The image, sourced from GoogleEarth, showcases an urban area featuring distinct structures including a stadium and a ground track field. The stadium has a large oval shape and takes up a significant portion towards the middle right of the image. Within the stadium, there is a smaller sized ground track field marked by lane lines and green space.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The large oval-shaped stadium located towards the middle right of the image.",
+            "obj_cls": "stadium",
+            "obj_corner": [
+                0.451171875,
+                0.50390625,
+                0.990234375,
+                0.50390625,
+                0.990234375,
+                1.078125,
+                0.451171875,
+                1.078125
+            ],
+            "obj_coord": [
+                0.45,
+                0.5,
+                0.99,
+                1.08
+            ],
+            "is_unique": true,
+            "obj_position": "",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        },
+        {
+            "obj_id": 1,
+            "referring_sentence": "Within the stadium, the small ground track field is delineated by lane lines and occupies the central portion of the stadium.",
+            "obj_cls": "ground-track-field",
+            "obj_corner": [
+                0.583984375,
+                0.55078125,
+                0.876953125,
+                0.55078125,
+                0.876953125,
+                1.06640625,
+                0.583984375,
+                1.06640625
+            ],
+            "obj_coord": [
+                0.58,
+                0.55,
+                0.88,
+                1.07
+            ],
+            "is_unique": true,
+            "obj_position": "",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "What is the main type of area shown in the image?",
+            "type": "scene type",
+            "answer": "urban"
+        },
+        {
+            "ques_id": 2,
+            "question": "How many stadiums are visible in the image?",
+            "type": "object quantity",
+            "answer": "1"
+        },
+        {
+            "ques_id": 3,
+            "question": "What kind of field is located within the stadium?",
+            "type": "object category",
+            "answer": "ground track field"
+        }
+    ],
+    "image": "05869_0000.png"
+}
