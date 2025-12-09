@@ -1,0 +1,131 @@
+{
+    "caption": "The image from GoogleEarth features a section of a harbor with multiple ships docked at wooden piers. There is a total of eight large ships arranged along the docks, with the clear greenish waters of the harbor surrounding them. The ships vary slightly in size and shape, some with distinct features such as a red-roofed cabin.",
+    "objects": [
+        {
+            "obj_id": 2,
+            "referring_sentence": "The ship located at the top edge of the harbor, closer to the pier.",
+            "obj_cls": "ship",
+            "obj_corner": [
+                0.1875,
+                0.24609375,
+                0.33203125,
+                0.24609375,
+                0.33203125,
+                0.337890625,
+                0.1875,
+                0.337890625
+            ],
+            "obj_coord": [
+                0.19,
+                0.25,
+                0.33,
+                0.34
+            ],
+            "is_unique": false,
+            "obj_position": "",
+            "obj_rel_position": "top-most",
+            "obj_size": "large",
+            "obj_rel_size": "",
+            "flag": false
+        },
+        {
+            "obj_id": 6,
+            "referring_sentence": "The ship positioned on the middle-right of the image.",
+            "obj_cls": "ship",
+            "obj_corner": [
+                0.78515625,
+                0.548828125,
+                0.890625,
+                0.548828125,
+                0.890625,
+                0.6171875,
+                0.78515625,
+                0.6171875
+            ],
+            "obj_coord": [
+                0.79,
+                0.55,
+                0.89,
+                0.62
+            ],
+            "is_unique": false,
+            "obj_position": "middle-right",
+            "obj_rel_position": "right-most",
+            "obj_size": "large",
+            "obj_rel_size": "",
+            "flag": false
+        },
+        {
+            "obj_id": 8,
+            "referring_sentence": "The bottom-most ship on the left-most dock of the harbor.",
+            "obj_cls": "ship",
+            "obj_corner": [
+                0.134765625,
+                0.775390625,
+                0.189453125,
+                0.775390625,
+                0.189453125,
+                0.87890625,
+                0.134765625,
+                0.87890625
+            ],
+            "obj_coord": [
+                0.13,
+                0.78,
+                0.19,
+                0.88
+            ],
+            "is_unique": false,
+            "obj_position": "bottom-left",
+            "obj_rel_position": "bottom-most",
+            "obj_size": "",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "Which type of vehicles are present in the image?",
+            "answer": "Ships",
+            "type": "object category"
+        },
+        {
+            "ques_id": 2,
+            "question": "How many ships are visible in the image?",
+            "answer": "8",
+            "type": "object quantity"
+        },
+        {
+            "ques_id": 3,
+            "question": "Is the body of water in the image an ocean or a harbor?",
+            "answer": "Harbor",
+            "type": "object category"
+        },
+        {
+            "ques_id": 4,
+            "question": "What color are the waters surrounding the ships?",
+            "answer": "Greenish",
+            "type": "object color"
+        },
+        {
+            "ques_id": 5,
+            "question": "Does the ship at the top edge have a visible red feature?",
+            "answer": "Yes",
+            "type": "object color"
+        },
+        {
+            "ques_id": 6,
+            "question": "Are the ships more concentrated towards any side of the image?",
+            "answer": "No",
+            "type": "reasoning"
+        },
+        {
+            "ques_id": 7,
+            "question": "Are the docks arranged in a straight or curved manner?",
+            "answer": "Straight",
+            "type": "object direction"
+        }
+    ],
+    "image": "06833_0000.png"
+}

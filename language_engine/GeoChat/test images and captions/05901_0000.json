@@ -1,0 +1,92 @@
+{
+    "caption": "The image sourced from GoogleEarth features a mix of urban and natural landscapes with no specified image resolution. There is a cluster of various buildings on the top, adjacent to a large green space which consists of fields and patches of trees and vegetation. The green space is intersected by pathways and is bordered by residential areas. Among the notable facilities, there is a small ground track field situated on the left side, and a sizable golf field occupying a significant portion of the image on its right side.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The ground track field is located on the left side of the image.",
+            "obj_cls": "ground-track-field",
+            "obj_corner": [
+                0.013671875,
+                0.298828125,
+                0.134765625,
+                0.298828125,
+                0.134765625,
+                0.375,
+                0.013671875,
+                0.375
+            ],
+            "obj_coord": [
+                0.01,
+                0.3,
+                0.13,
+                0.38
+            ],
+            "is_unique": true,
+            "obj_position": "left",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        },
+        {
+            "obj_id": 1,
+            "referring_sentence": "The golf field is located at the right side of the image.",
+            "obj_cls": "golffield",
+            "obj_corner": [
+                0.521484375,
+                0.2421875,
+                0.943359375,
+                0.2421875,
+                0.943359375,
+                0.69921875,
+                0.521484375,
+                0.69921875
+            ],
+            "obj_coord": [
+                0.52,
+                0.24,
+                0.94,
+                0.7
+            ],
+            "is_unique": true,
+            "obj_position": "",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "What is the main color of the large open space in the image?",
+            "type": "object color",
+            "answer": "Green"
+        },
+        {
+            "ques_id": 2,
+            "question": "Is there a residential area visible in the image?",
+            "type": "object existence",
+            "answer": "Yes"
+        },
+        {
+            "ques_id": 3,
+            "question": "What sports facility is located on the left side of the image?",
+            "type": "object category",
+            "answer": "Ground track field"
+        },
+        {
+            "ques_id": 4,
+            "question": "What type of field occupies the right side of the image?",
+            "type": "object category",
+            "answer": "Golf field"
+        },
+        {
+            "ques_id": 5,
+            "question": "Are there buildings present near the sports facilities?",
+            "type": "object existence",
+            "answer": "Yes"
+        }
+    ],
+    "image": "05901_0000.png"
+}

@@ -1,0 +1,92 @@
+{
+    "caption": "An aerial view captured via GoogleEarth shows a region featuring significant landmarks including a stadium and a ground track field. The stadium has an oval shape and occupies the larger part of the image on the right side, while the ground track field is nestled within the stadium, displaying an elliptical shape.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The oval-shaped stadium located on the right side of the image, extending from the center towards the edge.",
+            "obj_cls": "stadium",
+            "obj_corner": [
+                0.40625,
+                0.314453125,
+                1.26953125,
+                0.314453125,
+                1.26953125,
+                1.20703125,
+                0.40625,
+                1.20703125
+            ],
+            "obj_coord": [
+                0.41,
+                0.31,
+                1.27,
+                1.21
+            ],
+            "is_unique": true,
+            "obj_position": "",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        },
+        {
+            "obj_id": 1,
+            "referring_sentence": "The elliptical ground track field situated within the boundaries of the stadium.",
+            "obj_cls": "ground-track-field",
+            "obj_corner": [
+                0.615234375,
+                0.515625,
+                1.078125,
+                0.515625,
+                1.078125,
+                1.0390625,
+                0.615234375,
+                1.0390625
+            ],
+            "obj_coord": [
+                0.62,
+                0.52,
+                1.08,
+                1.04
+            ],
+            "is_unique": true,
+            "obj_position": "",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "What is the main structure visible in this aerial image?",
+            "type": "scene type",
+            "answer": "stadium"
+        },
+        {
+            "ques_id": 2,
+            "question": "Is there a track field within the stadium?",
+            "type": "object existence",
+            "answer": "Yes"
+        },
+        {
+            "ques_id": 3,
+            "question": "How many unique objects are identified in this image?",
+            "type": "object quantity",
+            "answer": "2"
+        },
+        {
+            "ques_id": 4,
+            "question": "What shape is the stadium?",
+            "type": "object shape",
+            "answer": "oval"
+        },
+        {
+            "ques_id": 5,
+            "question": "Does the image feature any ground track fields?",
+            "type": "object existence",
+            "answer": "Yes"
+        }
+    ],
+    "image": "07110_0000.png"
+}

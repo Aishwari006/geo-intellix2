@@ -1,0 +1,119 @@
+{
+    "caption": "The image sourced from GoogleEarth showcases a pair of airplanes and a unique vehicle on an airfield. The two airplanes are positioned parallel to each other on a tarmac, one slightly above the other in the frame. The unique vehicle is positioned on the left side of the frame.",
+    "objects": [
+        {
+            "obj_id": 0,
+            "referring_sentence": "The airplane located towards the upper part of the image.",
+            "obj_cls": "airplane",
+            "obj_corner": [
+                0.548828125,
+                0.306640625,
+                0.8125,
+                0.306640625,
+                0.8125,
+                0.623046875,
+                0.548828125,
+                0.623046875
+            ],
+            "obj_coord": [
+                0.55,
+                0.31,
+                0.81,
+                0.62
+            ],
+            "is_unique": false,
+            "obj_position": "",
+            "obj_rel_position": "top-most",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        },
+        {
+            "obj_id": 1,
+            "referring_sentence": "The airplane positioned towards the bottom part of the image.",
+            "obj_cls": "airplane",
+            "obj_corner": [
+                0.52734375,
+                0.6328125,
+                0.818359375,
+                0.6328125,
+                0.818359375,
+                0.91796875,
+                0.52734375,
+                0.91796875
+            ],
+            "obj_coord": [
+                0.53,
+                0.63,
+                0.82,
+                0.92
+            ],
+            "is_unique": false,
+            "obj_position": "",
+            "obj_rel_position": "bottom-most",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        },
+        {
+            "obj_id": 2,
+            "referring_sentence": "The vehicle placed on the middle-left side of the image.",
+            "obj_cls": "vehicle",
+            "obj_corner": [
+                0.12109375,
+                0.404296875,
+                0.171875,
+                0.404296875,
+                0.171875,
+                0.51953125,
+                0.12109375,
+                0.51953125
+            ],
+            "obj_coord": [
+                0.12,
+                0.4,
+                0.17,
+                0.52
+            ],
+            "is_unique": true,
+            "obj_position": "middle-left",
+            "obj_rel_position": "",
+            "obj_size": "small",
+            "obj_rel_size": "",
+            "flag": false
+        }
+    ],
+    "qa_pairs": [
+        {
+            "ques_id": 1,
+            "question": "What type of vehicles are present in the image?",
+            "type": "object category",
+            "answer": "airplanes, vehicle"
+        },
+        {
+            "ques_id": 2,
+            "question": "How many airplanes are visible in the image?",
+            "type": "object quantity",
+            "answer": "2"
+        },
+        {
+            "ques_id": 3,
+            "question": "Is there a unique vehicle in the image?",
+            "type": "object existence",
+            "answer": "Yes"
+        },
+        {
+            "ques_id": 4,
+            "question": "Where is the unique vehicle located in the image?",
+            "type": "object position",
+            "answer": "middle-left"
+        },
+        {
+            "ques_id": 5,
+            "question": "Are the objects positioned on a runway or a parking area?",
+            "type": "object category",
+            "answer": "parking area"
+        }
+    ],
+    "image": "06228_0000.png"
+}
